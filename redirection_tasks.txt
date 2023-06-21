@@ -1,0 +1,10 @@
+echo "Hello" > hello.txt
+cat index.html > hello.txt
+cat hello.txt
+cat hello.txt | wc
+cat tasks.txt | sort
+cat tasks.txt | sort > sorted_tasks.txt
+cat tasks.txt | sort -u > tasks.txt
+cat tasks.txt | grep basic
+cat tasks.txt | grep -v basic
+add&commit&push
